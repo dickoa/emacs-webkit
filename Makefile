@@ -1,4 +1,4 @@
-LIBS = gtk+-3.0 webkit2gtk-4.0
+LIBS = gtk+-3.0 webkit2gtk-4.1
 CFLAGS = -std=c99 -Wall -Wextra -Wno-unused-parameter -Wl,--no-as-needed -fpic 
 CFLAGS += `pkg-config --cflags $(LIBS)`
 LDFLAGS += `pkg-config --libs $(LIBS)`
